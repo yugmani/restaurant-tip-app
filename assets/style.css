@@ -35,6 +35,10 @@ h2 {
   color: green;
 }
 
+.tip-container {
+  margin-top: 10px;
+}
+
 .bill-container {
   width: 80%;
   height: 70%;
@@ -47,10 +51,6 @@ h2 {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
-  background-color: whitesmoke;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
 }
 
 .tip-list #ten,
@@ -59,7 +59,14 @@ h2 {
   margin-left: 20px;
 }
 
+.tip-btn {
+  padding: 3px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
 .grand-total {
+  margin-top: 5px;
   border-top: 1px solid gray;
   padding-top: 15px;
 }
@@ -68,4 +75,9 @@ h2 {
 #grand {
   font-size: 20px;
   color: blue;
+}
+
+#warning,
+#final_greet {
+  display: none;
 }
