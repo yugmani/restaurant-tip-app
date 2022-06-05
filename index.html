@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Tip Calculator</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Hollywood Restaurant</h1>
+        <h2>Welcome!</h2>
+      </div>
+      <div class="bill-container">
+        <label for="bill-amount">Total Bill:</label>
+        <input type="text" value="0" id="bill-amount" />
+        <div class="tip-container">
+          <h4>Would you like to tip us?</h4>
+          <div class="tip-list">
+            <input type="radio" name="tip" value="5%" id="five" />
+            <label for="5%">5%</label>
+            <input type="radio" name="tip" value="10%" id="ten" />
+            <label for="5%">10%</label>
+            <input type="radio" name="tip" value="15%" id="fifteen" />
+            <label for="5%">15%</label>
+            <input type="radio" name="tip" value="0" id="other" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div class="grand-total">
+          <div id="tip-total">Tip Amount: <span id="tip-amount">0</span></div>
+          <div id="grand-total">Grand Total: <span id="grand">0</span></div>
+        </div>
+      </div>
+      <h3>Thank you for taking our service!</h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+.bill-container {
+  width: 80%;
+  height: 70%;
+  background-color: azure;
+  border-top: 1px solid gray;
+  padding: 10px;
+}
+
+.tip-list {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.tip-list #ten,
+.tip-list #fifteen,
+.tip-list #other {
+  margin-left: 20px;
+}
+
+.grand-total {
+  border-top: 1px solid gray;
+  padding-top: 15px;
+}
+
+#tip-amount,
+#grand {
+  font-size: 20px;
+  color: blue;
+}
